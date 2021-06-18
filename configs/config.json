@@ -1,0 +1,7 @@
+{
+  "prefix": "https://",
+  "host": "m.cafe.daum.net",
+  "path": "/GuardianTales/ARyY",
+  "interval": "*/1 * * * *",
+  "channel": ""
+}

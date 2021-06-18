@@ -1,0 +1,10 @@
+version: '3.7'
+
+services:
+  injuk-crawler:
+    container_name: gt-crawler
+    image: gt-crawler
+    volumes:
+    - ${PWD}/screenshots:/crawler/screenshots
+    - ${PWD}/configs:/crawler/configs
+    restart: always
